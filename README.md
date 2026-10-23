@@ -19,6 +19,7 @@ I'm especially interested in practical AI integrations, product engineering, and
     <td width="50%" valign="top">
       <h3>Emiridian</h3>
       <p>A white-label SaaS platform for customer retention, loyalty, bookings, and engagement.</p>
+      <p align="center"><img src="./assets/emiridian-particle-horse.gif" alt="Animated Emiridian particle horse logo" width="240" /></p>
       <sub>Public project link: <em>to be added</em></sub>
     </td>
     <td width="50%" valign="top">
