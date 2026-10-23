@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Syed Ziyanuddin — Founder, Engineer, and Product Builder" width="100%" />
+  <img src="./assets/hero-background.gif" alt="Animated Syed Ziyanuddin profile banner — Founder, Engineer, and Product Builder" width="100%" />
 </p>
 
 <p align="center">
@@ -200,5 +200,7 @@ The [workflow](./.github/workflows/snake.yml) writes the generated SVG to an `ou
 <!-- Replace the placeholder above with verified public contact links. Do not publish a personal email address unless intended. -->
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Until the next build — Syed Ziyanuddin" width="100%" />
+  <img src="./assets/footer-background.gif" alt="Animated BUILD outro" width="100%" />
 </p>
+
+<p align="center"><sub>Until the next build. · Syed Ziyanuddin</sub></p>
