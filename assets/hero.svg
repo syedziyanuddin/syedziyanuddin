@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Syed Ziyanuddin — Founder, Engineer, Product Builder</title>
+  <desc id="hero-desc">A midnight navy profile banner with a technical grid, cyan orbital details, and the name Syed Ziyanuddin.</desc>
+  <style>
+    .signal { animation: signal 3.8s ease-in-out infinite; }
+    .drift { animation: drift 8s ease-in-out infinite; }
+    .orbit { animation: orbit 24s linear infinite; transform-origin: 930px 170px; }
+    .orbit-reverse { animation: orbit-reverse 34s linear infinite; transform-origin: 930px 170px; }
+    @keyframes signal { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes orbit-reverse { to { transform: rotate(-360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .signal, .drift, .orbit, .orbit-reverse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset=".52" stop-color="#081b32"/>
+      <stop offset="1" stop-color="#06111f"/>
+    </linearGradient>
+    <radialGradient id="hero-aura" cx="0" cy="0" r="1" gradientTransform="translate(888 104) rotate(137) scale(346 302)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1168a8" stop-opacity=".42"/>
+      <stop offset=".42" stop-color="#0a4d82" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#071426" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-cyan" cx="0" cy="0" r="1" gradientTransform="translate(304 315) rotate(-18) scale(340 120)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891b2" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#0891b2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hero-line" x1="784" y1="62" x2="1078" y2="274" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset=".5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="hero-rule" x1="76" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#7dd3fc" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <clipPath id="hero-clip">
+      <rect width="1200" height="340" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#hero-clip)">
+    <rect width="1200" height="340" fill="url(#hero-bg)"/>
+    <rect width="1200" height="340" fill="url(#hero-grid)"/>
+    <rect width="1200" height="340" fill="url(#hero-aura)"/>
+    <rect width="1200" height="340" fill="url(#hero-cyan)"/>
+
+    <path d="M0 286C154 227 224 355 408 284C553 228 620 258 720 278" fill="none" stroke="#38bdf8" stroke-opacity=".14" stroke-width="1"/>
+    <path d="M0 301C167 242 225 370 416 299C546 251 629 277 722 294" fill="none" stroke="#67e8f9" stroke-opacity=".08" stroke-width="1"/>
+    <path d="M76 93H488" stroke="url(#hero-rule)" stroke-width="1"/>
+    <path d="M76 273H515" stroke="#7dd3fc" stroke-opacity=".16" stroke-width="1"/>
+
+    <g class="drift">
+      <rect x="76" y="55" width="212" height="24" rx="12" fill="#0b2741" stroke="#67e8f9" stroke-opacity=".4"/>
+      <circle cx="91" cy="67" r="3" fill="#67e8f9" class="signal"/>
+      <text x="103" y="71" fill="#bae6fd" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" letter-spacing="1.5">PERSONAL PROFILE</text>
+    </g>
+
+    <text x="76" y="157" fill="#f0f9ff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="700" letter-spacing="-1.7">Syed Ziyanuddin</text>
+    <text x="79" y="202" fill="#67e8f9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing=".5">Founder · Engineer · Product Builder</text>
+    <text x="79" y="239" fill="#b6d7ef" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="400">Designing and shipping software products with intent.</text>
+
+    <g opacity=".72">
+      <circle cx="79" cy="294" r="3" fill="#67e8f9"/>
+      <path d="M93 294H180" stroke="#67e8f9" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M190 294H272" stroke="#38bdf8" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M282 294H354" stroke="#2563eb" stroke-opacity=".3" stroke-width="2"/>
+      <text x="374" y="298" fill="#8fb8d5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" letter-spacing="1.4">BUILD / SHIP / ITERATE</text>
+    </g>
+
+    <g aria-hidden="true">
+      <circle cx="930" cy="170" r="112" fill="none" stroke="#38bdf8" stroke-opacity=".13" stroke-width="1"/>
+      <circle cx="930" cy="170" r="82" fill="none" stroke="#67e8f9" stroke-opacity=".18" stroke-width="1" stroke-dasharray="4 10"/>
+      <circle cx="930" cy="170" r="51" fill="#08213a" fill-opacity=".78" stroke="#67e8f9" stroke-opacity=".48"/>
+      <circle cx="930" cy="170" r="39" fill="none" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <path d="M930 116V224M876 170H984" stroke="#67e8f9" stroke-opacity=".22" stroke-width="1"/>
+      <path d="M868 170A62 62 0 0 1 992 170" fill="none" stroke="url(#hero-line)" stroke-width="2" stroke-linecap="round" stroke-dasharray="42 348">
+        <animate attributeName="stroke-dashoffset" values="0;-390" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M991 170A61 61 0 0 1 869 170" fill="none" stroke="#67e8f9" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 360">
+        <animate attributeName="stroke-dashoffset" values="0;380" dur="12s" repeatCount="indefinite"/>
+      </path>
+      <g class="orbit">
+        <circle cx="930" cy="58" r="5" fill="#071426" stroke="#67e8f9" stroke-width="2"/>
+        <circle cx="930" cy="58" r="2" fill="#67e8f9" class="signal"/>
+        <path d="M930 39V25" stroke="#67e8f9" stroke-opacity=".7"/>
+        <path d="M923 32H937" stroke="#67e8f9" stroke-opacity=".7"/>
+      </g>
+      <g class="orbit-reverse">
+        <circle cx="1041" cy="170" r="4" fill="#38bdf8"/>
+        <circle cx="1041" cy="170" r="9" fill="none" stroke="#38bdf8" stroke-opacity=".32"/>
+      </g>
+      <g class="orbit">
+        <circle cx="856" cy="249" r="3" fill="#67e8f9"/>
+        <path d="M846 249H834" stroke="#67e8f9" stroke-opacity=".55"/>
+      </g>
+      <text x="930" y="165" text-anchor="middle" fill="#dff7ff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="700" letter-spacing="3">SZ</text>
+      <text x="930" y="188" text-anchor="middle" fill="#7dd3fc" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8" font-weight="600" letter-spacing="1.8">BUILD MODE</text>
+
+      <path d="M1057 75H1110V128M1110 212V265H1057" fill="none" stroke="#67e8f9" stroke-opacity=".4" stroke-width="1"/>
+      <path d="M751 128V75H804M804 265H751V212" fill="none" stroke="#67e8f9" stroke-opacity=".18" stroke-width="1"/>
+      <circle cx="1110" cy="75" r="2" fill="#67e8f9"/>
+      <circle cx="751" cy="265" r="2" fill="#38bdf8"/>
+    </g>
+  </g>
+
+  <rect x=".5" y=".5" width="1199" height="339" rx="23.5" fill="none" stroke="#7dd3fc" stroke-opacity=".22"/>
+</svg>
